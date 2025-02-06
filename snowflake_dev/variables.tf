@@ -1,7 +1,7 @@
 variable "snowflake_account" {
   description = "Snowflake_account_identifier"
   type = string
-  default = "https://ercpqao-yab90454.snowflakecomputing.com/console/login"
+  default = "ercpqao-yab90454"
 }
 
 variable "snowflake_user" {
