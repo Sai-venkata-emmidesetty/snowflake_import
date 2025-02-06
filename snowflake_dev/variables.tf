@@ -1,16 +1,19 @@
 variable "snowflake_account" {
   description = "Snowflake_account_identifier"
   type = string
+  default = "https://ercpqao-yab90454.snowflakecomputing.com/console/login"
 }
 
 variable "snowflake_username" {
   description = "snowflake_username"
   type = string
+  default = "WINTER"
 }
 
 variable "snowflake_password" {
   description = "snowflake_password"
   type = string
+  default = "Devaccountforsnowflake1"
 }
 
 variable "snowflake_role" {
