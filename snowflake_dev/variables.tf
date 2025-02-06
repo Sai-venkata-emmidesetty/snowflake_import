@@ -1,9 +1,3 @@
-variable "snowflake_account" {
-  description = "Snowflake_account_identifier"
-  type = string
-  default = "ercpqao-yab90454"
-}
-
 variable "snowflake_user" {
   description = "snowflake_user"
   type = string
