@@ -4,12 +4,6 @@ variable "snowflake_account" {
   default = "ercpqao-yab90454"
 }
 
-variable "snowflake_org" {
-  description = "snowflake_org"
-  type = string
-  default = "ERCPQAO"
-}
-
 variable "snowflake_user" {
   description = "snowflake_user"
   type = string
