@@ -13,4 +13,5 @@ provider "snowflake" {
   user  = var.snowflake_user
   password  = var.snowflake_password
   role      = var.snowflake_role
+  preview_features_enabled= ["snowflake_table_resource"]
 }
