@@ -4,7 +4,7 @@ variable "snowflake_account" {
   default = "https://ercpqao-yab90454.snowflakecomputing.com/console/login"
 }
 
-variable "snowflake_username" {
+variable "snowflake_user" {
   description = "snowflake_username"
   type = string
   default = "WINTER"
