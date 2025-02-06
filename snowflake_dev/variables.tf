@@ -13,7 +13,7 @@ variable "snowflake_user" {
 variable "snowflake_password" {
   description = "snowflake_password"
   type = string
-  default = "Devaccountforsnowflake1"
+  default = "Dev@ccountforsnowflake1"
 }
 
 variable "snowflake_role" {
