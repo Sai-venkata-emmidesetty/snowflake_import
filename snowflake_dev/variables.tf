@@ -5,7 +5,7 @@ variable "snowflake_account" {
 }
 
 variable "snowflake_user" {
-  description = "snowflake_username"
+  description = "snowflake_user"
   type = string
   default = "WINTER"
 }
